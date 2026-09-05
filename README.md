@@ -16,33 +16,74 @@
 <br>
 
 ## ✨ Features
-- 🎨 **Dynamic Theme Generator:** The banner automatically switches between 4 stunning dual-tone themes (Pink/Blue, Yellow/Green, Cyan/Blue, White/Neon) every time you type `clear`.
-- 📊 **Live System Info Update:** Date, Time, Local IP, Storage, and RAM values update in real-time whenever the screen is cleared.
-- 🎯 **Flawless Mathematical Alignment:** Pure heavy borders (`━`) and flawlessly calculated column spacing. No broken boxes.
-- ⚡ **Zero Config & One-Click Install:** Auto-installs `figlet`, `ncurses-utils`, and custom ANSI Shadow fonts.
-- 💻 **Custom Elite Prompt:** Clean, two-line `PS1` prompt with a solid red heart (♥) indicator.
+- 🎨 **Dynamic Theme Generator:** Switches between 4 stunning dual-tone themes (Pink/Blue, Yellow/Green, Cyan/Blue, White/Neon) every time you type `clear`.
+- 📊 **Live System Info:** Date, Time, Local IP, Storage, and RAM values update in real-time.
+- 🎯 **Flawless Alignment:** Pure heavy borders (`━`) and flawlessly calculated column spacing.
+- ⚡ **Zero Config:** Auto-installs `figlet`, `ncurses-utils`, and custom ANSI Shadow fonts.
+- 💻 **Custom Elite Prompt:** Clean `PS1` prompt with a solid red heart (♥) indicator.
 
-## 🛠️ Easy Installation (Single Command)
-Copy the single command below, paste it into your Termux app, and press Enter.
+## 🛠️ Installation Methods
 
+### Option 1: Auto Install (Single Command) - Recommended
+Copy and paste this single command into your Termux app and press Enter:
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/EM57/Termux_Elite_Banner/refs/heads/main/setup.sh)
-
 ```
-(During setup, simply type the name you want to display on the 3D banner!)
+`(During setup, simply type the name you want to display on the 3D banner!)`
 
 💡 How it works
-Once installed, your terminal will always open with this gorgeous banner.
-Whenever your terminal gets messy, just type:
+Once installed, your terminal will always open with this gorgeous banner. Whenever your terminal gets messy, just type:
 ```bash
 clear
 ```
-The screen will instantly wipe clean, generate a brand new color theme, and refresh your clock and RAM usage!
+
+## 🛠️ Option 2: Manual Installation (Step-by-Step)
+
+If you prefer to set up the repository manually from scratch, follow these steps in your Termux new version app:
+
+### Step 1: Update Packages and Install Git
+First, update your package list and install `git` so you can clone the repository:
+```bash
+pkg update && pkg upgrade -y
+```
+and install git
+```bash
+pkg install git -y
+```
+
+Step 2: Clone the Repository
+Clone your project repository from GitHub to your local Termux storage:
+```bash
+git clone
+```
+Step 3: Navigate into the Project Folder
+Go inside the newly created project directory:
+```bash
+cd Termux-Elite-Setup
+```
+Step 4: Give Execution Permission
+Make the setup script executable by granting permissions:
+```bash
+chmod +x setup.sh
+```
+Step 5: Run the Setup Script
+Execute the script to complete the configuration and enter your name when prompted:
+```bash
+./setup.sh
+```
+Step 6: Apply Changes
+Finally, reload your shell configuration to instantly view your new elite banner:
+```bash
+source ~/.bashrc
+```
+
+`The screen will instantly wipe clean, generate a brand new color theme, and refresh your system info!`
+
 📌 Requirements
 Termux App (Ensure it is downloaded from F-Droid, not the Play Store).
-Active Internet Connection (Only required during the first setup to download the 3D font and packages).
+Active Internet Connection (Only required during the first setup).
 
 
 <div align="center">
-<sub>Created with 💙 by <a href="https://github.com/EM57">EM57</a></sub>
+<sub>Created with ❤️ by <a href="https://github.com/EM57">EM57</a></sub>
 </div>
