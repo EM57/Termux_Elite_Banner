@@ -26,7 +26,7 @@
 Copy the single command below, paste it into your Termux app, and press Enter.
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/EM57/Termux-Elite-Setup/main/setup.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/EM57/Termux_Elite_Banner/refs/heads/main/setup.sh)
 
 ```
 (During setup, simply type the name you want to display on the 3D banner!)
