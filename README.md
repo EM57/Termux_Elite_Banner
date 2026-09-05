@@ -54,7 +54,7 @@ pkg install git -y
 Step 2: Clone the Repository
 Clone your project repository from GitHub to your local Termux storage:
 ```bash
-git clone
+git clone https://github.com/EM57/Termux_Elite_Banner.git
 ```
 Step 3: Navigate into the Project Folder
 Go inside the newly created project directory:
