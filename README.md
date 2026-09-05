@@ -59,7 +59,7 @@ git clone https://github.com/EM57/Termux_Elite_Banner.git
 Step 3: Navigate into the Project Folder
 Go inside the newly created project directory:
 ```bash
-cd Termux-Elite-Setup
+cd Termux_Elite_Banner
 ```
 Step 4: Give Execution Permission
 Make the setup script executable by granting permissions:
